@@ -373,10 +373,11 @@ Recommended Resolution: 1920x1080 FULLSCREEN
 
 .hp {
 	margin-right: 20%;
+	background-color: #FFD700
 }
 
 .hp-progress {
-	background: #8bff9f !important;
+	background: #2AC144 !important;
 }
 
 .state {
@@ -496,5 +497,5 @@ Recommended Resolution: 1920x1080 FULLSCREEN
 }
 
 .custom-checkbox > input:checked + span[data-v-47e1b746]:before {
-    background-color: #2ac144;
+    background-color: #ff0000;
 }
