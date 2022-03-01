@@ -64,6 +64,9 @@ body {
 #ad-bottom, #ad-left{
     visibility: hidden;
 }
+.className{
+  display: none !important;
+}
 
 /* Stream */
 .live-streams {
@@ -96,9 +99,9 @@ body {
 	background: none !important;
 }
 #logo {
-  content: url(https://cdn.discordapp.com/attachments/947597952220807251/947601788268335255/Micropenia-removebg-preview.png);
-  width: 400px;
-  height: 350px;
+  content: url(https://cdn.discordapp.com/attachments/948266133381845082/948277466705842236/LOGOMP.png);
+  width: 300px;
+  height: 300px;
 }
 
 .left-icons .icon-btn[style="--i:5;"] {
