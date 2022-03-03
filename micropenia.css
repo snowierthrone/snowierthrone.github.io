@@ -247,7 +247,7 @@ body {
 #view > div > div > div.content > div > div.leaderboard-cont > div.list-champions > div > div.bottom-items,
 #view > div > div > div.content > div > div.clans > div.champions-container > div.awards-cont > div.cards > div,
 #app > div.end-modal > div.content > div.right-cont-content > div.next-round.text-2 > div.progress-line.progress-line.secondary {
-  background: var(--leftColor) !important;
+  background: var(--baseColor) !important;
 }
 
 /*  BG: ACCENT  */
