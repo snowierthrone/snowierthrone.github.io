@@ -713,17 +713,6 @@ img.bottom-logo {
 }
 
 
-/*  INFO CSS   */
-.play:before {
-	content: "CSS by SnowierThrone (Micropenia) | Last Updated 01/03/2022";
-	margin-right: 30px;
-	-webkit-animation: glow 2s ease-in-out infinite alternate;
-	-moz-animation: glow 2s ease-in-out infinite alternate;
-	animation: glow 2s ease-in-out infinite alternate;
-	color: #009b72
-
-
-
 
 
 .nickname {
@@ -744,3 +733,12 @@ img.bottom-logo {
     position: fixed;
     top: -1px;
 }
+
+/*  INFO CSS   */
+.play:before {
+	content: "CSS by SnowierThrone (Micropenia) | Last Updated 01/03/2022";
+	margin-right: 30px;
+	-webkit-animation: glow 2s ease-in-out infinite alternate;
+	-moz-animation: glow 2s ease-in-out infinite alternate;
+	animation: glow 2s ease-in-out infinite alternate;
+	color: #009b72
