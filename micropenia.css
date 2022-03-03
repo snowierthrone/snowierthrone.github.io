@@ -721,3 +721,26 @@ img.bottom-logo {
 	-moz-animation: glow 2s ease-in-out infinite alternate;
 	animation: glow 2s ease-in-out infinite alternate;
 	color: #009b72
+
+
+
+
+
+.nickname {
+    text-decoration: line-through;
+    color: red;
+}
+
+.clan-tag {
+    visibility: hidden;
+}
+
+.clan-tag:before {
+    visibility: visible;
+    color: white;
+    content: 'BANNED';
+    font-size: 13px;
+    font-weight: 200;
+    position: fixed;
+    top: -1px;
+}
