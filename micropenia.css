@@ -6,6 +6,7 @@ Recommended Resolution: 1920x1080 FULLSCREEN
 
 /* Colors buttons */
 :root {
+  --leftColor: trasparent;
   --baseColor: #000000;
   --baseColorRGB: 37, 37, 37;
   --baseColorVariant: #353535;
@@ -100,6 +101,33 @@ body {
 }
 
 /* Lobby */
+
+/* Hub */
+ #left-icons > div:nth-child(1) > div:nth-child(1) > div{
+     content: url(https://cdn.discordapp.com/attachments/947597952220807251/949002745686417479/globe-12150.png) !important;
+     width: 70px;
+	
+}
+/* Store */
+ #left-icons > div:nth-child(1) > div:nth-child(2) > div{
+     content: url(https://cdn.discordapp.com/attachments/947597952220807251/949002432791330857/store-1068.png) !important;
+     width: 70px;
+}
+/* Servers */
+ #left-icons > div:nth-child(1) > div:nth-child(3) > div{
+     content: url(https://cdn.discordapp.com/attachments/947597952220807251/949002454391992350/game-controller-1396.png) !important;
+     width: 70px;
+}
+/* Map */
+ #left-icons > div:nth-child(1) > div:nth-child(4) > div{
+     content: url(https://cdn.discordapp.com/attachments/947597952220807251/949001621336104990/maps-location-11100.png) !important;
+     width: 70px;
+}
+/* News */
+ #left-icons > div:nth-child(2) > div{
+     content: url(https://cdn.discordapp.com/attachments/947597952220807251/949001925511241788/news-4301_3.png) !important;
+     width: 70px;
+}
 
 .promo-link-btn {
 	display: none !important;
@@ -323,9 +351,10 @@ body {
   position: fixed;
   top: 8rem;
   left: 1rem;
+  height: 550px;
   width: 8.25rem;
   border: 2px solid var(--accentColor);
-  background: var(--baseColor);
+  background: var(--leftColor);
   overflow: visible;
   align-items: center;
 }
