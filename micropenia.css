@@ -6,7 +6,7 @@ Recommended Resolution: 1920x1080 FULLSCREEN
 
 /* Colors buttons */
 :root {
-  --baseColor: #252525;
+  --baseColor: #000000;
   --baseColorRGB: 37, 37, 37;
   --baseColorVariant: #353535;
   --accentColor: #009b72;
@@ -705,6 +705,7 @@ img.bottom-logo {
     position: absolute;
     top: 20px;
     right: 110px;
+	color: white !important;
 }
 
 .interface.text-2 .play > button:hover {
