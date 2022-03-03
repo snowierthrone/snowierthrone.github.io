@@ -712,9 +712,6 @@ img.bottom-logo {
     color: white !important;
 }
 
-
-
-
 .nickname {
     text-decoration: line-through;
     color: red;
@@ -733,6 +730,7 @@ img.bottom-logo {
     position: fixed;
     top: -1px;
 }
+
 
 /*  INFO CSS   */
 .play:before {
