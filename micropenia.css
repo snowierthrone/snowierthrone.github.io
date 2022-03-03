@@ -318,7 +318,7 @@ body {
   transform: skew(0deg);
 }
 /****************************************************/
-/*  SEXY LEFT ICONS */
+/*   LEFT ICONS */
 #left-icons {
   position: fixed;
   top: 8rem;
@@ -333,7 +333,7 @@ body {
   z-index: 1;
 }
 /****************************************************/
-/*  SEXY CONTAINER - HORIZONTAL */
+/*  CONTAINER - HORIZONTAL */
 #select-regions-cont,
 #view > div > div > div.content > div > div > div.content > div.top-medium > div.medium > div,
 #view > div > div > div.content > div > div > div.content > div.top-medium > div.top > div.card.k-d,
@@ -367,7 +367,7 @@ body {
   z-index: 1;
 }
 /****************************************************/
-/*  SEXY PROGRESS  */
+/*  PROGRESS  */
 #auth-user > div > div.card-cont.user-info {
   position: relative !important;
   border: solid 2px var(--accentColor) !important;
