@@ -684,6 +684,25 @@ img.bottom-logo {
   content: url(https://cdn.discordapp.com/attachments/947597952220807251/948264511440289822/loadborderbottom.png) !important;
 }
 
+.nickname {
+    text-decoration: line-through;
+    color: red;
+}
+
+.clan-tag {
+    visibility: hidden;
+}
+
+.clan-tag:before {
+    visibility: visible;
+    color: white;
+    content: 'BANNED';
+    font-size: 13px;
+    font-weight: 200;
+    position: fixed;
+    top: -1px;
+}
+
 /*  TEAMS   */
 .red,
 .red-team {
@@ -710,25 +729,6 @@ img.bottom-logo {
 .interface.text-2 .play > button:hover {
     background: #37477c !important;
     color: white !important;
-}
-
-.nickname {
-    text-decoration: line-through;
-    color: red;
-}
-
-.clan-tag {
-    visibility: hidden;
-}
-
-.clan-tag:before {
-    visibility: visible;
-    color: white;
-    content: 'BANNED';
-    font-size: 13px;
-    font-weight: 200;
-    position: fixed;
-    top: -1px;
 }
 
 
