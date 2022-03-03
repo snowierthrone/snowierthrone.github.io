@@ -102,6 +102,7 @@ body {
 
 /* Lobby */
 
+
 /* Hub */
  #left-icons > div:nth-child(1) > div:nth-child(1) > div{
      content: url(https://cdn.discordapp.com/attachments/947597952220807251/949002745686417479/globe-12150.png) !important;
@@ -627,6 +628,8 @@ body {
 }
 
 /* Profile */
+
+
 .auth-form {
 	background: transparent !important;
 	border-bottom: transparent !important;
@@ -706,6 +709,9 @@ body {
     background-color: #ff0000;
 }
 /*  MISC   */
+
+
+
 img.top-logo {
   content: url(https://cdn.discordapp.com/attachments/947597952220807251/948264183898705920/loadbordertop.png) !important;
 }
@@ -713,6 +719,19 @@ img.bottom-logo {
   content: url(https://cdn.discordapp.com/attachments/947597952220807251/948264511440289822/loadborderbottom.png) !important;
 }
 
+.desktop-game-interface[data-v-6a4c5c6d]::after {
+  border-radius: 100%;
+  content: "";
+  background: var(--accentColor);
+  border: var(--borderSize) solid var(--borderColor);
+  width: var(--dotSize);
+  height: var(--dotSize);
+  position: fixed;
+  left: 50%;
+  bottom: 50%;
+  transform: translate(-50%, 50%);
+  z-index: 999 !important;
+}
 /*  TEAMS   */
 .red,
 .red-team {
@@ -751,3 +770,4 @@ img.bottom-logo {
 	-moz-animation: glow 2s ease-in-out infinite alternate;
 	animation: glow 2s ease-in-out infinite alternate;
 	color: #009b72
+}
