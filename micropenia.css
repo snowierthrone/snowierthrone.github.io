@@ -6,6 +6,7 @@ Recommended Resolution: 1920x1080 FULLSCREEN
 
 /* Colors buttons */
 :root {
+  --endurancecolor: rgb(55, 0, 255);
   --leftColor: trasparent;
   --baseColor: #000000;
   --baseColorRGB: 37, 37, 37;
@@ -252,9 +253,8 @@ body {
 .progress,
 ::-webkit-scrollbar-thumb,
 #app > div.game-interface > div.desktop-game-interface > div.state > div.cont-endurance > div {
-  background: var(--accentColor) !important;
+  background: var(--endurancecolor) !important;
 }
-
 /*  COLOR: ACCENT   */
 .win,
 .clan-tag,
@@ -595,6 +595,7 @@ body {
 
 .cont-endurance {
 	margin-left: 1.5%;
+  
 }
 
 .weapons-cont {
