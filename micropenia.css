@@ -47,9 +47,10 @@ body {
 }
 
 /* Animations */
+
 @-webkit-keyframes glow {
   from {
-    text-shadow: 0 0 5px #fff, 0 0 5px #ae50e4, 0 0 5px #ae50e4, 0 0 5px #ae50e4, 0 0 6px #ae50e4, 0 0 7px #ae50e4, 0 0 8px #ae50e4;
+    text-shadow: 0 0 5px #fff, 0 0 5px hsl(0, 100%, 50%), 0 0 5px #ff0000, 0 0 5px #ff0000, 0 0 6px #ff0000, 0 0 7px #ff0000, 0 0 8px #ff0000;
   }
 }
 
@@ -79,9 +80,6 @@ body {
 /*	Ad Removal */
 #ad-bottom, #ad-left{
     visibility: hidden;
-}
-.className{
-  display: none !important;
 }
 
 /* Stream */
