@@ -6,7 +6,6 @@ Recommended Resolution: 1920x1080 FULLSCREEN
 
 /* Colors buttons */
 :root {
-  --endurancecolor: rgb(55, 0, 255);
   --leftColor: trasparent;
   --baseColor: #000000;
   --baseColorRGB: 37, 37, 37;
@@ -48,10 +47,9 @@ body {
 }
 
 /* Animations */
-
 @-webkit-keyframes glow {
   from {
-    text-shadow: 0 0 5px #fff, 0 0 5px hsl(0, 100%, 50%), 0 0 5px #ff0000, 0 0 5px #ff0000, 0 0 6px #ff0000, 0 0 7px #ff0000, 0 0 8px #ff0000;
+    text-shadow: 0 0 5px #fff, 0 0 5px #ae50e4, 0 0 5px #ae50e4, 0 0 5px #ae50e4, 0 0 6px #ae50e4, 0 0 7px #ae50e4, 0 0 8px #ae50e4;
   }
 }
 
@@ -253,8 +251,9 @@ body {
 .progress,
 ::-webkit-scrollbar-thumb,
 #app > div.game-interface > div.desktop-game-interface > div.state > div.cont-endurance > div {
-  background: var(--endurancecolor) !important;
+  background: var(--accentColor) !important;
 }
+
 /*  COLOR: ACCENT   */
 .win,
 .clan-tag,
@@ -595,7 +594,6 @@ body {
 
 .cont-endurance {
 	margin-left: 1.5%;
-  
 }
 
 .weapons-cont {
