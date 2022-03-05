@@ -9,7 +9,7 @@ Recommended Resolution: 1920x1080 FULLSCREEN
   --leftColor: trasparent;
   --baseColor: #000000;
   --baseColorRGB: 37, 37, 37;
-  --baseColorVariant: #353535;
+  --baseColorVariant: #000000;
   --accentColor: #009b72;
   --accentColorRGB: 81, 0, 22;
   --accentCompliment: #00ce97;
@@ -706,8 +706,6 @@ body {
     background-color: #ff0000;
 }
 /*  MISC   */
-
-
 
 img.top-logo {
   content: url(https://cdn.discordapp.com/attachments/947597952220807251/948264183898705920/loadbordertop.png) !important;
