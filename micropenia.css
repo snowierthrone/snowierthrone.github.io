@@ -1,7 +1,7 @@
 /*
-Kirka.io Public Browser CSS
-Made By: SnowierThrone
-Recommended Resolution: 1920x1080 FULLSCREEN
+Kirka.io Micropenia CSS
+Made By: SnowierThrone#1974
+Recommended Resolution: 1920x1080 FULLSCREEN!
 */
 
 /* Colors buttons */
@@ -300,8 +300,13 @@ body {
   border: 0.125rem solid rgba(255, 255, 255, 0.1) !important;
 }
 
+/*  RIGHT BUTTONS  */
 .play-btn {
   margin-right: 0 !important;
+}
+
+.right-icons .gun-img {
+  content: url(https://cdn.discordapp.com/attachments/947597952220807251/952171554324750406/icons8-zaino-64.png);
 }
 .button,
 #right-icons > div.icon-btn.text-1,
@@ -718,7 +723,6 @@ img.top-logo {
 img.bottom-logo {
   content: url(https://cdn.discordapp.com/attachments/947597952220807251/948264511440289822/loadborderbottom.png) !important;
 }
-
 .desktop-game-interface[data-v-6a4c5c6d]::after {
   border-radius: 100%;
   content: "";
@@ -770,4 +774,9 @@ img.bottom-logo {
 	-moz-animation: glow 2s ease-in-out infinite alternate;
 	animation: glow 2s ease-in-out infinite alternate;
 	color: #009b72
+}
+
+.soc-group:nth-child(1),
+.text-soc {
+    display: none !important;
 }
