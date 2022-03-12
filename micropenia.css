@@ -16,6 +16,8 @@ Recommended Resolution: 1920x1080 FULLSCREEN!
   --dotSize: 0.2rem;
 }
 /*  HIDE ELEMENTS   */
+.soc-group:nth-child(1),
+.text-soc,
 .triangle,
 .bg-radial,
 .list-weapons,
@@ -49,7 +51,7 @@ body {
 /* Animations */
 @-webkit-keyframes glow {
   from {
-    text-shadow: 0 0 5px #fff, 0 0 5px #ae50e4, 0 0 5px #ae50e4, 0 0 5px #ae50e4, 0 0 6px #ae50e4, 0 0 7px #ae50e4, 0 0 8px #ae50e4;
+    text-shadow: 0 0 5px #fff, 0 0 5px #66ff66, 0 0 5px #39ffd4, 0 0 5px #66ff66, 0 0 6px #39ffd4, 0 0 7px #66ff66, 0 0 8px #39ffd4;
   }
 }
 
@@ -306,7 +308,7 @@ body {
 }
 
 .right-icons .gun-img {
-  content: url(https://cdn.discordapp.com/attachments/947597952220807251/952171554324750406/icons8-zaino-64.png);
+  content: url(https://cdn.discordapp.com/attachments/947597952220807251/952175968376746024/icons8-zaino-64_3.png);
 }
 .button,
 #right-icons > div.icon-btn.text-1,
@@ -366,6 +368,17 @@ body {
 }
 #left-icons > div {
   z-index: 1;
+}
+
+.left-interface .progress {
+  background: -webkit-gradient(linear, left top, right top, from(#39ffd4), to(#66ff66)) !important;
+  background: linear-gradient(to right, #39ffd4, #66ff66) !important;
+}
+
+
+.profile .progress[data-v-5aafd15a] {
+  background: -webkit-gradient(linear, left top, right top, from(#39ffd4), to(#66ff66)) !important;
+  background: linear-gradient(to right, #39ffd4, #66ff66) !important;
 }
 /****************************************************/
 /*  CONTAINER - HORIZONTAL */
@@ -567,7 +580,7 @@ body {
 
 /* End Game Screen */
 .end-modal {
-	background: url(https://cdn.discordapp.com/attachments/947597952220807251/948021128117518426/Space-Stars-Black-Background-Gif-1920x1080-.gif?width=1168&height=657) !important;
+	background: url(https://cdn.discordapp.com/attachments/947597952220807251/948021128117518426/Space-Stars-Black-Background-Gif-1920x1080-.gif?width=1168&height=657) repeat !important;
 }
 
 .end-modal .content {
@@ -715,7 +728,10 @@ body {
 }
 /*  MISC   */
 
-
+.loading-scene .progress {
+  background: -webkit-gradient(linear, left top, right top, from(#39ffd4), to(#66ff66)) !important;
+  background: linear-gradient(to right, #39ffd4, #66ff66) !important;
+}
 
 img.top-logo {
   content: url(https://cdn.discordapp.com/attachments/947597952220807251/948264183898705920/loadbordertop.png) !important;
@@ -768,15 +784,10 @@ img.bottom-logo {
 
 /*  INFO CSS   */
 .play:before {
-	content: "CSS by SnowierThrone (Micropenia) | Last Updated 03/03/2022";
+	content: "(Micropenia) CSS By SnowierThrone#1974 | Last Updated 12/03/2022";
 	margin-right: 30px;
 	-webkit-animation: glow 2s ease-in-out infinite alternate;
 	-moz-animation: glow 2s ease-in-out infinite alternate;
 	animation: glow 2s ease-in-out infinite alternate;
 	color: #009b72
-}
-
-.soc-group:nth-child(1),
-.text-soc {
-    display: none !important;
 }
