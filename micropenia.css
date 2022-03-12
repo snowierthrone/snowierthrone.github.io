@@ -16,8 +16,7 @@ Recommended Resolution: 1920x1080 FULLSCREEN!
   --dotSize: 0.2rem;
 }
 /*  HIDE ELEMENTS   */
-.soc-group:nth-child(1),
-.text-soc,
+
 .triangle,
 .bg-radial,
 .list-weapons,
@@ -32,6 +31,11 @@ Recommended Resolution: 1920x1080 FULLSCREEN!
 #app > div.game-interface > div.desktop-game-interface > div.weapons-cont > div.state-weapon-active.text-1 > div.mWwn {
   display: none !important;
 }
+.soc-group:nth-child(1),
+.text-soc {
+    display: none !important;
+}
+
 /* Font */
 @font-face {
 	font-family: gamefont;
@@ -310,6 +314,7 @@ body {
 .right-icons .gun-img {
   content: url(https://cdn.discordapp.com/attachments/947597952220807251/952175968376746024/icons8-zaino-64_3.png);
 }
+
 .button,
 #right-icons > div.icon-btn.text-1,
 #right-icons > div.card-cont.text-1.inventory-card,
