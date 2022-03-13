@@ -12,7 +12,7 @@ Recommended Resolution: 1920x1080 FULLSCREEN!
   --baseColorVariant: #353535;
   --accentColor: red;
   --accentColorRGB: 81, 0, 22;
-  --accentCompliment: #00ce97;
+  --accentCompliment: #ff0a0a;
   --dotSize: 0.2rem;
 }
 /*  HIDE ELEMENTS   */
@@ -26,6 +26,7 @@ Recommended Resolution: 1920x1080 FULLSCREEN!
 #app > div.loading-scene > div.loading,
 #auth-user > div > div.card-cont.avatar-info,
 #app > div.game-interface > div.desktop-game-interface > div.chat.chat-position > div.info,
+#auth-user > div > div.card-cont.user-info > div.progress-lvl > div.progress-top > div.level > span,
 #app > div.game-interface > div.desktop-game-interface > div.weapons-cont > div.state-weapon-active.text-1 > div.mWwn {
   display: none !important;
 }
@@ -49,17 +50,17 @@ body {
 /* Animations */
 @-webkit-keyframes glow {
   from {
-    text-shadow: 0 0 5px #fff, 0 0 5px #646464, 0 0 5px #ff0000, 0 0 5px #727272, 0 0 6px #39ffd4, 0 0 7px #66ff66, 0 0 8px #39ffd4;
+    text-shadow: 0 0 5px #fff, 0 0 5px #66ff66, 0 0 5px #39ffd4, 0 0 5px #66ff66, 0 0 6px #39ffd4, 0 0 7px #66ff66, 0 0 8px #39ffd4;
   }
 }
 
 @keyframes animate {
-    from {
-        background-position: 0 0;
-    }
-    to {
-        background-position: 0 400px;
-    }
+	from {
+		background-position: 0 0;
+	}
+	to {
+		background-position: 0 400px;
+	}
 }
 
 /*Background */
@@ -341,7 +342,12 @@ body {
   border-radius: 0 !important;
   z-index: -99 !important;
 }
-
+.button:hover::after,
+#right-icons > div.icon-btn.text-1:hover::after,
+#right-icons > div.card-cont.text-1.inventory-card:hover::after,
+#right-interface > div.settings-and-socicons > div.card-cont.settings.card-1:hover::after {
+  transform: scaleX(0) !important;
+}
 .text[data-v-02c36fca] {
   z-index: 1;
   -webkit-text-stroke: 0 !important;
