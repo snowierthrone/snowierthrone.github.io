@@ -81,9 +81,6 @@ body {
 #ad-bottom, #ad-left{
     visibility: hidden;
 }
-.className{
-  display: none !important;
-}
 
 /* Stream */
 .live-streams {
