@@ -756,7 +756,6 @@ img.bottom-logo {
   z-index: 999 !important;
 }
 /*  TEAMS   */                     
-.tab-info,
 .red,
 .red-team {
   background: var(--baseColor) !important;
