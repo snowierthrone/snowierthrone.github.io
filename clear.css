@@ -6,6 +6,7 @@ Recommended Resolution: 1920x1080 FULLSCREEN!
 
 /* Colors buttons */
 :root {
+  --sexColor: green;
   --leftColor: transparent;
   --baseColor: rgb(0, 0, 0);
   --baseColorRGB: 37, 37, 37;
@@ -15,8 +16,11 @@ Recommended Resolution: 1920x1080 FULLSCREEN!
   --accentCompliment: #ff0a0a;
   --dotSize: 0.2rem;
 }
-/*  HIDE ELEMENTS   */
-.css-1lh20xz
+/*  HIDE ELEMENTS   */  
+.bottom,
+.qc-cmp-cleanslate ,
+.css-c7qsui,
+.css-1lh20xz,
 .triangle,
 .cmp-persistent-link,
 .bg-radial,
@@ -752,7 +756,8 @@ img.bottom-logo {
   transform: translate(-50%, 50%);
   z-index: 999 !important;
 }
-/*  TEAMS   */
+/*  TEAMS   */                     
+.tab-info,
 .red,
 .red-team {
   background: var(--baseColor) !important;
