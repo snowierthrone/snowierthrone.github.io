@@ -17,6 +17,7 @@ Recommended Resolution: 1920x1080 FULLSCREEN!
 }
 /*  HIDE ELEMENTS   */
 .triangle,
+.cmp-persistent-link,
 .bg-radial,
 .list-weapons,
 .mini-map-cont,
@@ -28,7 +29,7 @@ Recommended Resolution: 1920x1080 FULLSCREEN!
 #app > div.game-interface > div.desktop-game-interface > div.chat.chat-position > div.info,
 #auth-user > div > div.card-cont.user-info > div.progress-lvl > div.progress-top > div.level > span,
 #app > div.game-interface > div.desktop-game-interface > div.weapons-cont > div.state-weapon-active.text-1 > div.mWwn {
-  width: 0px !important;
+  display: none !important;
 }
 
 /* Font */

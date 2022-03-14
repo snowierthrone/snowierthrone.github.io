@@ -17,6 +17,7 @@ Recommended Resolution: 1920x1080 FULLSCREEN
   }
   /*  HIDE ELEMENTS   */
   .triangle,
+  .cmp-persistent-link,
   .bg-radial,
   .list-weapons,
   .mini-map-cont,
@@ -767,7 +768,7 @@ Recommended Resolution: 1920x1080 FULLSCREEN
   
   /*  INFO CSS   */
   .play:before {
-      content: "CSS by SnowierThrone (Micropenia) | Last Updated 08/03/2022";
+      content: "CSS by SnowierThrone (Micropenia) | Last Updated 14/03/2022";
       margin-right: 30px;
       -webkit-animation: glow 2s ease-in-out infinite alternate;
       -moz-animation: glow 2s ease-in-out infinite alternate;

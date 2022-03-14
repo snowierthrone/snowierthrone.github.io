@@ -17,6 +17,7 @@ Recommended Resolution: 1920x1080 FULLSCREEN!
 }
 /*  HIDE ELEMENTS   */
 .triangle,
+.cmp-persistent-link,
 .bg-radial,
 .list-weapons,
 .mini-map-cont,
@@ -784,7 +785,7 @@ img.bottom-logo {
 
 /*  INFO CSS   */
 .play:before {
-	content: "(Micropenia) CSS By SnowierThrone#1974 | Last Updated 12/03/2022";
+	content: "(Micropenia) CSS By SnowierThrone#1974 | Last Updated 14/03/2022";
 	margin-right: 30px;
 	-webkit-animation: glow 2s ease-in-out infinite alternate;
 	-moz-animation: glow 2s ease-in-out infinite alternate;
